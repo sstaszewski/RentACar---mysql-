@@ -29,8 +29,7 @@ public class Formularz extends HttpServlet {
         String user = "java";
         String password = "java";
         String firstName = request.getParameter("firstName");
-        String lastName
-                = request.getParameter("lastName");
+        String lastName = request.getParameter("lastName");
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
