@@ -8,10 +8,19 @@
 </head>
 <body>
 <form action="formularz.jsp" method="post">
-    <input type="submit" value="Add Customer">
+    <input type="submit" value="Add a customer">
 </form>
 <form action="usuwanie.jsp" method="post">
-    <input type="submit" value="Delete Customer">
+    <input type="submit" value="Delete a customer">
+</form>
+<form action="addCar.jsp" method="post">
+    <input type="submit" value="Add a car">
+</form>
+<form action="deleteCar.jsp" method="post">
+    <input type="submit" value="Delete a car">
+</form>
+<form action="rentACar.jsp" method="post">
+    <input type="submit" value="Rent a car">
 </form>
 </body>
 </html>
