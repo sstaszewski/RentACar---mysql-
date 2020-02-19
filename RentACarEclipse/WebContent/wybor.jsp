@@ -19,7 +19,7 @@
 <form action="deleteCar.jsp" method="post">
     <input type="submit" value="Delete a car">
 </form>
-<form action="rentACar.jsp" method="post">
+<form action="OdczytZBazy" method="post">
     <input type="submit" value="Rent a car">
 </form>
 </body>

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,16 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form>
+<form>
 		<%
-			out.print("Car/s added! ");
+			out.print("hasla nie są zgodne  ");
 		%>
-	</form>
-	<form action="logowanie.jsp" method="post">
-		<input type="submit" value="Log out">
-	</form>
-	<form action="wybor.jsp" method="post">
-		<input type="submit" value="Back">
-	</form>
+		<A HREF=rejestracja.jsp>cofnij</A>
+</form>
 </body>
 </html>

@@ -12,5 +12,10 @@
     <input type="text" name="price">Price per day<br />
     <input type="submit" value="save">
 </form>
+<form action="OdczytZPliku" method="post">
+	<label for="myfile">Select a file:</label><br />
+ 	<input type="file" id="myfile" name="myfile"><br />
+    <input type="submit" value="Import from file">
+</form>
 </body>
 </html>

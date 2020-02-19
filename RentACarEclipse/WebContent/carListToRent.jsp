@@ -7,16 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form>
-		<%
-			out.print("Car/s added! ");
-		%>
-	</form>
-	<form action="logowanie.jsp" method="post">
-		<input type="submit" value="Log out">
-	</form>
-	<form action="wybor.jsp" method="post">
-		<input type="submit" value="Back">
+	<form action="OdczytZBazysdf" method="post">
+		<label for=orderBy>Sort by price:</label> 
+		<select name="orderBy">
+			<option value="ascending">ascending</option>
+			<option value="descending">descending</option>
+		</select> 
+		<input type="submit" value="Show list">
 	</form>
 </body>
 </html>
