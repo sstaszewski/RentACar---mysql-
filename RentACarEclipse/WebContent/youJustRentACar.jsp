@@ -11,9 +11,9 @@
 <%
 %>
 <p>Congratulations! </p><br />
-<p>You just have rent:<%request.getAttribute("rentedCarName");%></p><br />
-<p>for <%request.getAttribute("rentLength");%> days </p><br />
-<p>and it will cost you: <%request.getAttribute("rentPrice");%> </p><br />
+<p>You just have rent: <%= request.getParameter("carName2") %></p><br />
+<p>for <%= request.getParameter("rentLength") %> days.</p><br />
+<p>and it will cost you: <%= request.getParameter("rentPrice") %>.</p><br />
 	<form action="logowanie.jsp" method="post">
 		<input type="submit" value="Log out">
 	</form>
