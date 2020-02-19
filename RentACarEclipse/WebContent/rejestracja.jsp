@@ -7,16 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form>
-		<%
-			out.print("Car/s added! ");
-		%>
-	</form>
-	<form action="logowanie.jsp" method="post">
-		<input type="submit" value="Log out">
-	</form>
-	<form action="wybor.jsp" method="post">
-		<input type="submit" value="Back">
+	<form action="Rejestracja" method="post">
+		<input type="text" name="login">Podaj login<br /> <input
+			type="password" name="haselo">Podaj haslo<br /> <input
+			type="password" name="haselo2">Powtórz haslo<br /> <input
+			type="submit" value="Zarejestruj">
 	</form>
 </body>
 </html>
